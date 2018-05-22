@@ -1,0 +1,120 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+.logo {
+  color: MediumAquamarine;
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: black;
+}
+ <!--Main-->
+
+ .main {
+   display: flex;
+   width: 1232px;
+   margin: 0 auto 78px auto;
+   padding-top: 116px;
+ }
+
+.column {
+  display: flex;
+}
+
+ .col-large {
+   width: 630px;
+   display: inline-flex;
+   flex-direction: column;
+ }
+
+ .col-med {
+   width: 300px;
+   display: inline-flex;
+   flex-direction: column;
+   position: relative;
+   top: 12px;
+ }
+
+ .col-small {
+   width: 240px;
+   display: inline-flex;
+   flex-direction: column;
+   position: relative;
+   top: 209px;
+ }
+
+ .tuna-story,
+ .second-row,
+ .third-row,
+ .fbi-story,
+ .cats,
+ .img-bite,
+ .news-bites {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .img-text,
+ .story,
+ .title,
+ .cookie,
+ .bites {
+
+ }
+
+ .tuna-story .img-text {
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+   min-height: 300px;
+ }
+
+ .img-text.primary {
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 40px;
+   color: white;
+ }
+
+ .fall.secondary {
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+   min-height: 300px;
+ }
+
+ .camera.secondary {
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+   min-height: 300px;
+ }
+
+ .kitty.secondary {
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+   min-height: 300px;
+ }
+
+ .img-text.secondary {
+   font-family: Georgia;
+   font-weight: bold;
+   color: white;
+   font-size: 30px;
+ }
+
+ .story {
+   font-family: Georgia;
+   font-size: 17px;
+ }
