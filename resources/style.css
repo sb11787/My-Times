@@ -49,10 +49,21 @@ header {
   height: 80px;
   width: 100%;
   z-index: 1;
+  position: fixed;
+  background-color: white;
 }
 
 .navigation {
   display: inline-block;
+}
+
+nav span {
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.logo span {
+  margin-left: 10px;
 }
 
 .logo {
@@ -88,10 +99,12 @@ header {
 
  .fall.img-text {
    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+   margin-top: 100px;
  }
 
  .camera.img-text {
    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+   margin-top: 100px;
  }
 
  .column.col-med {
@@ -109,3 +122,47 @@ header {
  img.cookie {
    height: 240px;
  }
+
+ h3 {
+   font-size: 16px;
+   font-weight: bold;
+   margin-bottom: 40px;
+ }
+
+.bit {
+  display: block;
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 350px;
+}
+
+.end-logo,
+nav {
+  display: inline-block;
+}
+
+.end-logo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 20px;
+}
